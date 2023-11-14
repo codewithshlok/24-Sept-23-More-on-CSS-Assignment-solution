@@ -1,0 +1,53 @@
+<!-- Q1.Create a navigation bar similar to the below-mentioned image. The navigation bar must contain 5 navigation links that are properly displayed within the navigation bar using the CSS box model. The navigation items must change their text color on hover.
+Solution:- -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: rgb(24, 123, 123);
+            padding: 20px 0px;
+        }
+        a{
+            margin: 10px;
+            padding: 5px;
+            color: white;
+        }
+        a:hover{
+            color: black;
+        }
+        .navlink-1{
+            border: 2px solid black;
+        }
+        .navlink-2{
+            border: 2px dotted black;
+        }
+        .navlink-3{
+            border: 2px dashed black;
+        }
+        .navlink-4{
+            border: 2px groove  black;
+            
+
+        }
+        .navlink-5{
+            border: 2px double black;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="navlink-1">Home</a>
+            <a href="#" class="navlink-2">About Us</a>
+            <a href="#" class="navlink-3">Contact</a>
+            <a href="#" class="navlink-4">Blog</a>
+            <a href="#" class="navlink-5">Login</a>
+        </nav>
+    </header>
+</body>
+</html>
